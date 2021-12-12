@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'ec2-3-145-187-124.us-east-2.compute.amazonaws.com',
+      host: 'ec2-18-117-196-118.us-east-2.compute.amazonaws.com',
       key:  '~/.ssh/nodejs-server.pem',
       ref:  'origin/main',
       repo: 'git@github.com:caseymcspadden/nodejs-app.git',
